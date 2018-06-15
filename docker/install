@@ -1,0 +1,11 @@
+https://jingyan.baidu.com/article/0aa223756cf6e388cc0d6412.html
+
+ctrl+alt+t
+
+sudo apt-get  update
+sudo apt-get install  docker
+sudo   apt-get install   docker.io
+sudo apt-get install  docker-registry
+sudo systemctl  start  docker
+
+
