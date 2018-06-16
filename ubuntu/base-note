@@ -4,3 +4,10 @@ https://jingyan.baidu.com/article/cd4c297932fa24756e6e6007.html
 ctrl+alt+t
 $sudo apt-get  update
 $sudo  apt-get upgrade
+
+二、
+su表示切换用户命令命令，如：
+输入：su命令后回车表示切换当前的用户到root用户，或者：
+输入：su - root(或者其他用户名)这里加了"-"后表示也切换的当前的环境变量到新用户的环境变量，su root（或者其他用户名）表示不切换环境变量到当前用户下。
+sudo 表示获取临时的root权限命令，如：
+sudo gedit /etc/shadow，表示临时使用root权限来编辑/etc/shadow密码文件，因为/etc/shadow密码文件需要使用root权限才能打开与编辑。所以这里使用了sudo命令临时使用root权限来做一些普通账户无法完成的工作
