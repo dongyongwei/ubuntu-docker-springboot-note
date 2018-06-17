@@ -6,4 +6,9 @@
     docker pull {image address}
     docker run -d -p8080:80 {image}
     
-3、
+    
+    
+    docker exec -it { } bash
+    
+3、 docker ps
+    docker stop {16bit}
